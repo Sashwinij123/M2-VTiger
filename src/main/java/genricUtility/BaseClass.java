@@ -80,8 +80,8 @@ public class BaseClass {
 	@AfterMethod(alwaysRun = true)
 	public void logoutOperation()
 	{
-		HomePage hp=new HomePage(driver);
-		hp.signOutOperation(driver);
+		HomePage HP=new HomePage(driver);
+		HP.signOutOperation(driver);
 		System.out.println("Logout done sucessfully");
 	}
 	

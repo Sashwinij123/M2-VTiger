@@ -1,6 +1,5 @@
 package testCaseRepo;
 
-import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
